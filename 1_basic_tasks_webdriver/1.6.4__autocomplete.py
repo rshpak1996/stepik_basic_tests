@@ -4,7 +4,6 @@ import pytest
 
 link = "http://suninjuly.github.io/simple_form_find_task.html"
 
-def test_autocomplete(browser):
 try:
     browser = webdriver.Chrome()
     browser.get(link)
